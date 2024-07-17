@@ -7,7 +7,7 @@
     @apply min-h-screen grid place-items-center bg-[#eee] text-darkBlueColor;
   }
 }
-
+  
 @layer components {
   .card__cover{
     width: 100%;
@@ -18,7 +18,7 @@
       rgba(93,76,190,0.8)
     ),
     url(https://www.w3schools.com/howto/img_avatar.png);
-    background-size : cover;
+    background-size : contain;
     clip-path: polygon(0.0,100% 0% ,100% 80%, 0% 100%);
   }  
 }

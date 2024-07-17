@@ -573,12 +573,64 @@ body {
       rgba(93,76,190,0.8)
     ),
     url(https://www.w3schools.com/howto/img_avatar.png);
-  background-size : cover;
+  background-size : contain;
   clip-path: polygon(0.0,100% 0% ,100% 80%, 0% 100%);
+}
+
+.relative {
+  position: relative;
+}
+
+.-mt-\[3\.5rem\] {
+  margin-top: -3.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-\[5rem\] {
+  height: 5rem;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-80 {
   width: 20rem;
+}
+
+.w-\[5rem\] {
+  width: 5rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .overflow-hidden {
@@ -589,9 +641,70 @@ body {
   border-radius: 4px;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.border-4 {
+  border-width: 4px;
+}
+
+.border-\[3px_solid_\#fafafa\] {
+  border-color: 3px solid #fafafa;
+}
+
 .bg-whiteColor {
   --tw-bg-opacity: 1;
   background-color: rgb(250 250 250 / var(--tw-bg-opacity));
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.pt-0 {
+  padding-top: 0px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-\[1\.6rem\] {
+  font-size: 1.6rem;
+}
+
+.text-\[1rem\] {
+  font-size: 1rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.shadow-\[0_0_1rem_rgba\(0\2c 0\2c 0\2c 0\.2\)\] {
+  --tw-shadow: 0 0 1rem rgba(0,0,0,0.2);
+  --tw-shadow-colored: 0 0 1rem var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .shadow-\[0_0_lrem_rgba\(0\2c 0\2c 0\2c 0\.1\)\] {
